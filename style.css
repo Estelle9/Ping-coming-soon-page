@@ -97,7 +97,7 @@ button {
     height: 3.5em;
 }
 
-button:active:focus, .link:active:focus {
+button:active, .link:active {
     border:0;
     outline:none;
     box-shadow:none;
