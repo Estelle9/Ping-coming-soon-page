@@ -78,6 +78,11 @@ input::placeholder {
     color: hsl(223, 100%, 88%);
 }
 
+input:focus {
+    outline:none;
+    box-shadow:none;
+}
+
 button {
     border: none;
     outline: none;
@@ -92,7 +97,7 @@ button {
     height: 3.5em;
 }
 
-input:focus, button:focus, .link:focus {
+button:focus, .link:focus {
     border:0;
     outline:none;
     box-shadow:none;
