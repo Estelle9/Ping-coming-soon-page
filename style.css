@@ -90,6 +90,9 @@ button {
     cursor: pointer;
     width: 100%;
     height: 3.5em;
+}
+
+button:focus {
     outline: none;
 }
 
